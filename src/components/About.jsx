@@ -6,7 +6,7 @@ const About = () => {
       
         <img
           class="rounded-lg max-w-xs md:max-w-md"
-          src="/src/assets/images/Banner.png"
+          src="/assets/images/Banner.png"
           alt=""
         />
         <div class="flex flex-col justify-between p-4 leading-normal flex-auto w-64">

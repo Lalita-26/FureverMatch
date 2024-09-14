@@ -18,7 +18,7 @@ function MainPage() {
       <Service />
       <Breedfinder />
       <Adoptionpets />
-      <Contents/>
+      <Contents />
       <Footer />
     </>
   );
