@@ -70,7 +70,7 @@ function Breedfinder() {
         {filteredBreeds.map((breed) => (
           <div
             key={breed.id}
-            className="mt-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col"
+            className="w-full mt-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 flex flex-col"
           >
             <a href="#">
               <img
