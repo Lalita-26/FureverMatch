@@ -5,7 +5,7 @@ import About from "../components/About";
 import Service from "../components/Service";
 import Breedfinder from "../components/Breedfinder";
 import Adoptionpets from "../components/Adoptionpets";
-import Contents from "../components/contents";
+import Contents from "../components/Contents";
 import Footer from "../components/Footer";
 
 
