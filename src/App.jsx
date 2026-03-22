@@ -1,4 +1,3 @@
-import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainPage from "./pages/MainPage";
 import GoldenRetrieverPage from "./pages/GoldenRetrieverPage";
@@ -9,18 +8,17 @@ import BeaglePage from "./pages/BeaglePage";
 import Siamese from "./pages/Siamese";
 import PersianPage from "./pages/PersianPage";
 import MaineCoonPage from "./pages/MaineCoonPage";
-import BengalPage from"./pages/BengalPage";
+import BengalPage from "./pages/BengalPage";
 import RagdollPage from "./pages/RagdollPage";
-import KhaoManee from"./pages/KhaoManee";
+import KhaoManee from "./pages/KhaoManee";
 import PomeranianPage from "./pages/PomeranianPage";
-
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainPage />,
   },
-  
+
   {
     path: "/breeds/golden",
     element: <GoldenRetrieverPage />,
@@ -59,7 +57,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/breeds/ragdoll",
-    element: <RagdollPage/>,
+    element: <RagdollPage />,
   },
   {
     path: "/breeds/khaomanee",
@@ -69,8 +67,6 @@ const router = createBrowserRouter([
     path: "/breeds/pomeranian",
     element: <PomeranianPage />,
   },
- 
-
 ]);
 function App() {
   return (
